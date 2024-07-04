@@ -1,1 +1,334 @@
-<h1>Test</h1>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio josuerobld</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#about" class="nav-item nav-link">Sobre Mí</a>
+                <a href="#educacion" class="nav-item nav-link">Educación</a>
+                <a href="#experiencia" class="nav-item nav-link">Experiencia</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#skill" class="nav-item nav-link">Habilidades</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">                
+                <h1 class=" text-uppercase text-primary" style="margin-top: 50px;">Sobre Mí</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <h3 class="mb-4">Desarrollador Full Stack</h3>
+                    <p>Me gusta mucho la tecnología por la forma en que puede simplificar y mejorar la vida cotidiana. Me esfuerzo en ir más allá del código y busco crear soluciones que, además de resolver problemas, también hagan que la experiencia del usuario sea más agradable.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Nombre: <span class="text-secondary">Josue Arturo Robledo Duque</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Cumpleaños: <span class="text-secondary">30 Abril 2000</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">(+502) 3027-5775</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">josuerobledo1010@gmail.com</span></h6></div>                        
+                    </div>
+                    <a target="_blank" href="docs/Curriculum.pdf" class="btn btn-outline-primary mr-4">Ver Curriculum</a>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+</button>
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center">                
+                <h1 class="position-absolute text-uppercase text-primary">Educación y Experiencia</h1>
+            </div>
+            <div class="row align-items-center">
+                <div id="educacion">
+                    <h3 class="mb-4">Educación</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Ingeniería en Ciencias y Sistemas</h5>
+                            <p class="mb-2"><strong>Universidad de San Carlos de Guatemala</strong> | <small>2019 - 2024</small></p>
+                            <p>Estudiante de 10.º semestre.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Perito en Informática</h5>
+                            <p class="mb-2"><strong>Centro Educativo Técnico Laboral Kinal</strong> | <small>2016 - 2018</small></p>                            
+                        </div>
+                    </div>
+                </div>
+                <div  id="experiencia">
+                    <h3 class="mb-4">Experiencia</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Bases de datos - Prácticas</h5>
+                            <p class="mb-2"><strong>Centro de Cálculo - Facultad de Ingenieria USAC</strong> | <small>2024</small></p>
+                            <p>Apoyé con el proceso de migración de la base de datos de asignaciones en PostgreSQL, realicé pruebas en las nuevas versiones y generé documentación del proceso.
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Desarrollo Web - Prácticas</h5>
+                            <p class="mb-2"><strong>Overxak</strong> | <small>2018</small></p>
+                            <p>Ayudé en el desarrollo de plataformas web para clientes, con Angular. Acompañé y tomé apuntes en tomas de requerimientos con clientes.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Soporte Técnico - Prácticas</h5>
+                            <p class="mb-2"><strong>Banco Azteca</strong> | <small>2017</small></p>
+                            <p>Brindé soporte técnico tanto de hardware como de software para los diferentes departamentos del banco, y realicé consultas y reportería básica en SQL Server.</p>                          
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center">            
+                <h1 class="position-absolute text-uppercase text-primary" style="margin-bottom: 100px;">Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">Todos</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Web</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Consola</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Escritorio</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="card">
+                        <img class="card-img-top" src="img/portfolio-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Whisperwall</h5>
+                          <p class="card-text">Plataforma web con react, node.js y Mysql para el Proyecto Acción de seminario de un colegio de nivel medio, donde los alumnos comentan sobre problemas de acoso de manera privada y segura, y los profesores les dan seguimiento.</p>
+                          <a href="http://www.github.com" class="btn btn-primary">Github</a>
+                          <a class="btn btn-primary" id="videmoDemo" data-toggle="modal" data-src="https://www.youtube.com/embed/jNQXAC9IVRw" data-target="#videoModal">Video Demo</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Mysql | Node.js | React
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="card">
+                        <img class="card-img-top" src="img/portfolio-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Whisperwall</h5>
+                          <p class="card-text">Plataforma web con react, node.js y Mysql para el Proyecto Acción de seminario de un colegio de nivel medio, donde los alumnos comentan sobre problemas de acoso de manera privada y segura, y los profesores les dan seguimiento.</p>
+                          <a href="http://www.github.com" class="btn btn-primary">Github</a>
+                          <a class="btn btn-primary" id="videmoDemo" data-toggle="modal" data-src="https://www.youtube.com/embed/jNQXAC9IVRw" data-target="#videoModal">Video Demo</a>
+                          
+                        </div>
+                        <div class="card-footer text-muted">
+                            Mysql | Node.js | React
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="card">
+                        <img class="card-img-top" src="img/portfolio-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Whisperwall</h5>
+                          <p class="card-text">Plataforma web con react, node.js y Mysql para el Proyecto Acción de seminario de un colegio de nivel medio, donde los alumnos comentan sobre problemas de acoso de manera privada y segura, y los profesores les dan seguimiento.</p>
+                          <a href="http://www.github.com" class="btn btn-primary">Github</a>
+                          <a class="btn btn-primary" id="videmoDemo" data-toggle="modal" data-src="https://www.youtube.com/embed/jNQXAC9IVRw" data-target="#videoModal">Video Demo</a>
+                          
+                        </div>
+                        <div class="card-footer text-muted">
+                            Mysql | Node.js | React
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="card">
+                        <img class="card-img-top" src="img/portfolio-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Whisperwall</h5>
+                          <p class="card-text">Plataforma web con react, node.js y Mysql para el Proyecto Acción de seminario de un colegio de nivel medio, donde los alumnos comentan sobre problemas de acoso de manera privada y segura, y los profesores les dan seguimiento.</p>
+                          <a href="http://www.github.com" class="btn btn-primary">Github</a>
+                          <a class="btn btn-primary" id="videmoDemo" data-toggle="modal" data-src="https://www.youtube.com/embed/jNQXAC9IVRw" data-target="#videoModal">Video Demo</a>
+                          
+                        </div>
+                        <div class="card-footer text-muted">
+                            Mysql | Node.js | React
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="card">
+                        <img class="card-img-top" src="img/portfolio-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Whisperwall</h5>
+                          <p class="card-text">Plataforma web con react, node.js y Mysql para el Proyecto Acción de seminario de un colegio de nivel medio, donde los alumnos comentan sobre problemas de acoso de manera privada y segura, y los profesores les dan seguimiento.</p>
+                          <a href="http://www.github.com" class="btn btn-primary">Github</a>
+                          <a class="btn btn-primary" id="videmoDemo" data-toggle="modal" data-src="https://www.youtube.com/embed/jNQXAC9IVRw" data-target="#videoModal">Video Demo</a>
+                          
+                        </div>
+                        <div class="card-footer text-muted">
+                            Mysql | Node.js | React
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+    
+       <!-- Skill Start -->
+       <div class="container-fluid py-5" id="skill" style="margin-top: 50px;">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center">                
+                <h1 class="position-absolute text-uppercase text-primary" style="margin-bottom: 70px;">Habilidades</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Python</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Javascript</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">React</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Mysql</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="mailto:josuerobledo1010@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a target="_blank" class="btn btn-light btn-social mr-2" href="https://github.com/josuerobld"><i class="fab fa-github"></i></a>
+                <a target="_blank" class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/josuerobld/"><i class="fab fa-linkedin-in"></i></a>                
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
