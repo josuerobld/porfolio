@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Proyecto</title>
+</head>
+<body>
+    <div id="project-details">
+        <!-- Aquí se mostrarán los detalles del proyecto -->
+    </div>
+
+    <!-- Enlaza tu archivo JavaScript aquí -->
+    <script src="js/detalle.js"></script>
+</body>
+</html>
+
+<div class="tip" markdown="1">
+    Have **fun!**
+    # Markdown desde html
+    ### Grupo 2
+
+    |  Nombre | Carnet  |
+    | ------------ | ------------ |
+    | Josue Arturo Robledo Duque | 201902705 |
+
+    ~~~c
+int main(int argc, char *argv[]) {
+    // Crear un proceso hijo
+    pid_t pid = fork();
+
+    if (pid < 0) {
+        perror("Error al crear el proceso hijo");
+        exit(EXIT_FAILURE);
+    } else if (pid == 0) {
+        // Proceso hijo
+        execl("/bin/sh", "sh", "-c", "sudo stap trace.stp | tee calls.log", (char *)NULL);
+        perror("Error al ejecutar SystemTap");
+        exit(EXIT_FAILURE);
+    } else {
+        sleep(1);
+        execl("/bin/sh", "sh", "-c", "./lector", (char *)NULL);
+        perror("Error al ejecutar lector.c");
+        exit(EXIT_FAILURE);
+    }
+    return 0;
+}
+~~~
+Para la realización de la practica, se realizó utilizo el lenguaje de programación lógica "PROLOG".
+![](img/portfolio-1.jpg)
+
+</div>
+
+<span class="note">
+
+    Have **fun!**
+    # Markdown desde html
+    ### Grupo 2
+
+    |  Nombre | Carnet  |
+    | ------------ | ------------ |
+    | Josue Arturo Robledo Duque | 201902705 |
+
+    ~~~c
+int main(int argc, char *argv[]) {
+    // Crear un proceso hijo
+    pid_t pid = fork();
+
+    if (pid < 0) {
+        perror("Error al crear el proceso hijo");
+        exit(EXIT_FAILURE);
+    } else if (pid == 0) {
+        // Proceso hijo
+        execl("/bin/sh", "sh", "-c", "sudo stap trace.stp | tee calls.log", (char *)NULL);
+        perror("Error al ejecutar SystemTap");
+        exit(EXIT_FAILURE);
+    } else {
+        sleep(1);
+        execl("/bin/sh", "sh", "-c", "./lector", (char *)NULL);
+        perror("Error al ejecutar lector.c");
+        exit(EXIT_FAILURE);
+    }
+    return 0;
+}
+~~~
+Para la realización de la practica, se realizó utilizo el lenguaje de programación lógica "PROLOG".
+![](img/portfolio-1.jpg)
+
+
+</span>
