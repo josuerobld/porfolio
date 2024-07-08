@@ -25,11 +25,7 @@ const projectDetails = document.getElementById('project-details');
 if (projects[projectTitle]) {
     const project = projects[projectTitle];
     projectDetails.innerHTML = `
-        <h1>${projectTitle}</h1>
-        <p>${project.description}</p>
-        <p><strong>Tecnologías:</strong> ${project.technologies}</p>
-        <a href="${project.github}" class="btn btn-primary">Github</a>
-        <a href="${project.videoDemo}" class="btn btn-primary">Video Demo</a>
+        <zero-md src="readmes/whisperwall.md"></zero-md>
     `;
 } else {
     projectDetails.innerHTML = `<p>Proyecto no encontrado.</p>`;
