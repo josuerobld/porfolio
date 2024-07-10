@@ -32,23 +32,23 @@
         </div>
     </nav>
 
-    <!-- Video Modal Start -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>        
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
-                    </div>
+<!-- Video Modal Start -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>        
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Video Modal End -->
+</div>
+<!-- Video Modal End -->
 
 
     <!-- About Start -->
@@ -82,7 +82,7 @@
             <div class="d-flex align-items-center justify-content-center">                
                 <h1 class="position-absolute text-uppercase text-primary">Educación y Experiencia</h1>
             </div>
-            <div class="row align-items-center">
+            <div class="row align-items-center" style="margin-top: 30px;">
                 <div id="educacion">
                     <h3 class="mb-4">Educación</h3>
                     <div class="border-left border-primary pt-2 pl-4 ml-2">
@@ -154,12 +154,14 @@
             <div class="row portfolio-container">
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                     <div class="card">
-                        <img class="card-img-top" src="img/whisperwall1.jpg" alt="Card image cap">
+                        <a href="detalle.html?title=Whisperwall" class="image-container">
+                            <img class="card-img-top" src="img/whisperwall1.jpg" alt="Card image cap">
+                        </a>                                                
                         <div class="card-body">
-                          <h5 class="card-title">Whisperwall</h5>
-                          <p class="card-text">Plataforma web con react, node.js y Mysql para el Proyecto Acción de seminario de un colegio de nivel medio, donde los alumnos comentan sobre problemas de acoso de manera privada y segura, y los profesores les dan seguimiento.</p>
+                          <h5 class="card-title">Whisperwall (Freelance)</h5>
+                          <p class="card-text">Proyecto donde fui contratado como freelance para desarrollar una plataforma web para el "Proyecto Acción" de un seminario de un colegio de nivel medio. En esta plataforma, los alumnos comentan sobre problemas de acoso de manera privada y segura, y los profesores les dan seguimiento. Cuenta con autenticación con JWT y manejo de roles de estudiantes y docentes.</p>
                           <a href="detalle.html?title=Whisperwall" class="btn btn-primary">Ver detalle</a>
-                          <a class="btn btn-primary" id="videmoDemo" data-toggle="modal" data-src="https://www.youtube.com/embed/Wafnbod-TQo" data-target="#videoModal">Video Demo</a>
+                          <a class="btn btn-primary videmoDemo" id="videmoDemo" data-toggle="modal" data-src="https://www.youtube.com/embed/Wafnbod-TQo" data-target="#videoModal">Video Demo</a>
                         </div>
                         <div class="card-footer text-muted">
                             Mysql | Node.js | React
@@ -169,23 +171,29 @@
             
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                     <div class="card">
-                        <img class="card-img-top" src="img/portfolio-1.jpg" alt="Card image cap">
+                        <a href="detalle.html?title=Semisocial" class="image-container">
+                            <img class="card-img-top" src="img/semisocial1.jpg" alt="Card image cap">
+                        </a>                        
                         <div class="card-body">
-                          <h5 class="card-title">Virtual Mall</h5>
-                          <p class="card-text">Plataforma web para compras.</p>
-                          <a href="http://www.github.com" class="btn btn-primary">Ver detalle</a>
-                          <a class="btn btn-primary" id="videmoDemo" data-toggle="modal" data-src="https://www.youtube.com/embed/jNQXAC9IVRw" data-target="#videoModal">Video Demo</a>
+                          <h5 class="card-title">Photo-Bucket</h5>
+                          <p class="card-text">Aplicación web donde los usuarios inician sesión para subir fotos y separarlas en álbumes que se generan automáticamente mediante AWS Rekognition en base a las fotos subidas. El manejo de usuarios se administra gracias a Cognito, y se da la opción de iniciar sesión mediante reconocimiento facial. Se utilizó Amazon Lex para un chatbot básico y funciones Lambda con Amazon Translate para traducir comentarios.
+
+                          </p>
+                          <a href="detalle.html?title=Semisocial" class="btn btn-primary">Ver detalle</a>
+                          <a class="btn btn-primary videmoDemo" id="videmoDemo" data-toggle="modal" data-src="https://www.youtube.com/embed/jVcP83HaWB4" data-target="#videoModal">Video Demo</a>
                           
                         </div>
                         <div class="card-footer text-muted">
-                            Mysql | Node.js | React
+                        Amazon Web Services | Rekognition | EC2 | Cognito | Mysql | Node.js | React | Scrum
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                     <div class="card">
-                        <img class="card-img-top" src="img/portfolio-1.jpg" alt="Card image cap">
+                        <a href="detalle.html?title=Semisocial" class="image-container">
+                            <img class="card-img-top" src="img/portfolio-1.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                           <h5 class="card-title">Proyecto 3</h5>
                           <p class="card-text">Página web con react.</p>
