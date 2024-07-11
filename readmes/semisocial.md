@@ -148,10 +148,10 @@ La base de datos se implemento utilizando MySQL como gestor y ejecución dentro 
 
 ## __Pagina Web__
 
-<img src="img/photobucket0.PNG" width="40%" height="40%" />
-<img src="img/photobucket1.PNG" width="40%" height="40%" />
-<img src="img/photobucket2.PNG" width="40%" height="40%" />
-<img src="img/photobucket3.PNG" width="40%" height="40%" />
+<img src="img/photobucket0.png" width="40%" height="40%" />
+<img src="img/photobucket1.png" width="40%" height="40%" />
+<img src="img/photobucket2.png" width="40%" height="40%" />
+<img src="img/photobucket3.png" width="40%" height="40%" />
 
 Proyecto grupal hecho por [mi persona (josuerobld)](https://github.com/josuerobld), [AlexIngGuerra](https://github.com/AlexIngGuerra), [AlexanderAvalos](https://github.com/AlexanderAvalos) y [jona1403](https://github.com/jona1403), mediante la metodología ágil SCRUM y gitflow como estrategia de branching. Donde **yo realice lo siguiente:**  
 #### Frontend 
