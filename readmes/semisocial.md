@@ -1,6 +1,6 @@
 # PhotoBucket
 
-[<img src="../img/github_source.svg" alt="Github" target="_blank" height="32" />](https://github.com/josuerobld/Sem1_Practica1_G9)
+[<img src="img/github_source.svg" alt="Github" target="_blank" height="32" />](https://github.com/josuerobld/Sem1_Practica1_G9)
 
 Aplicación web donde los usuarios inician sesión para subir fotos y separarlas en álbumes que se generan automáticamente mediante AWS Rekognition en base a las fotos subidas. El manejo de usuarios se administra gracias a Cognito, y se da la opción de iniciar sesión mediante reconocimiento facial. Se utilizó Amazon Lex para un chatbot básico y funciones Lambda para traducir comentarios.
 
@@ -8,14 +8,14 @@ Aplicación web donde los usuarios inician sesión para subir fotos y separarlas
 
 Para el FrontEnd se utilizo el framework de javaScript React utilizando VITE para su configuración. Para consumir las API Rest Node Js. Se creó una imagen de docker para poder ejecutarlo posteriormente con docker compose.
 
-<img src="../img/frontend-photobucket.png" width="50%" height="50%" />
+<img src="img/frontend-photobucket.png" width="50%" height="50%" />
 
 ## __Backend__
 
 ### __NodeJS__
 Para la api se utilizo como lenguaje nodejs utilizando express, morgan y cors para su configuración. Para la conexión a aws se utilizó aws-sdk, para la conexión a la base de datos se utilizó mysql2 y para leer el .env se utilizó dotenv. Para la seguridad se implemento JWT para la verificación de permisos e inicio de sesión enlazada con cognito. Para encriptación se utilizó md5. Se creó una imagen de docker para poder ejecutarlo posteriormente con docker compose.
 
-<img src="../img/backend-photobucket.png" width="50%" height="50%" />
+<img src="img/backend-photobucket.png" width="50%" height="50%" />
 
 ### __Endpoints__
 
@@ -96,7 +96,7 @@ La base de datos se implemento utilizando MySQL como gestor y ejecución dentro 
 
 * Diagrama de la base de datos:
 
-![](../img/db.png)
+![](img/db.png)
 
 ## __AWS__
 
@@ -114,7 +114,7 @@ La base de datos se implemento utilizando MySQL como gestor y ejecución dentro 
 
 * __AdminCognito:__ Usuario utilizado para la administración y acceso a Amazon Cognito para configurar el pool de usuarios para manejar los credenciales de acceso a la aplicación. 
 
-![](../img/iam.PNG)
+![](img/iam.PNG)
 
 ### __Despliegue y Servicios__
 
@@ -126,7 +126,7 @@ La base de datos se implemento utilizando MySQL como gestor y ejecución dentro 
 
     Se creo un bucket en Amazon S3 con el nombre semi1-practica1-g9-imagenes que contiene dos carpetas Fotos_Perfil y Fotos_Publicadas en las cuales se almacenan las fotografias de los usuarios.
 
-    ![](../img/S3.PNG)
+    ![](img/S3.PNG)
 
 * __Amazon Rekognition__
 
@@ -144,14 +144,14 @@ La base de datos se implemento utilizando MySQL como gestor y ejecución dentro 
 
     Se utiliza para el manejo de credenciales de inicio de sesión. Se encarga de verificar que el correo ingresado a la plataforma sea valido y que al momento de intentar acceder el usuario y la contraseña sean correctos. Se implemento por medio del pool de usuarios semi1g9user-pool.
 
-    ![](../img/cognito.PNG)
+    ![](img/cognito.PNG)
 
 ## __Pagina Web__
 
-<img src="../img/photobucket0.PNG" width="40%" height="40%" />
-<img src="../img/photobucket1.PNG" width="40%" height="40%" />
-<img src="../img/photobucket2.PNG" width="40%" height="40%" />
-<img src="../img/photobucket3.PNG" width="40%" height="40%" />
+<img src="img/photobucket0.PNG" width="40%" height="40%" />
+<img src="img/photobucket1.PNG" width="40%" height="40%" />
+<img src="img/photobucket2.PNG" width="40%" height="40%" />
+<img src="img/photobucket3.PNG" width="40%" height="40%" />
 
 Proyecto grupal hecho por [mi persona (josuerobld)](https://github.com/josuerobld), [AlexIngGuerra](https://github.com/AlexIngGuerra), [AlexanderAvalos](https://github.com/AlexanderAvalos) y [jona1403](https://github.com/jona1403), mediante la metodología ágil SCRUM y gitflow como estrategia de branching. Donde **yo realice lo siguiente:**  
 #### Frontend 
