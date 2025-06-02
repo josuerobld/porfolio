@@ -8,6 +8,7 @@
     <lastBuildDate>Mon, 02 Jun 2025 16:00:00 +0000</lastBuildDate>
     <ttl>10</ttl>
 
+
     <item>
       <title>Servidor reiniciado</title>
       <link>http://tuservidor.com/rss/evento1</link>
@@ -21,6 +22,15 @@
       <link>http://tuservidor.com/rss/evento2</link>
       <guid isPermaLink="false">evento-20250602-1605</guid>
       <description>CPU al 93% de uso en los últimos 5 minutos.</description>
+      <pubDate>Mon, 02 Jun 2025 16:05:00 +0000</pubDate>
+    </item>
+
+
+    <item>
+      <title>Alerta: Uso de RAM alto</title>
+      <link>http://tuservidor.com/rss/evento2</link>
+      <guid isPermaLink="false">evento-20250602-1605</guid>
+      <description>RAM al 99% de uso en los últimos 5 minutos.</description>
       <pubDate>Mon, 02 Jun 2025 16:05:00 +0000</pubDate>
     </item>
   </channel>
