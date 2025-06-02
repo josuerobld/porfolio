@@ -1,52 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-<title>TEST</title>
-<description>
-ffsdfsdfsdfsd
-</description>
-<language>en-us</language>
-<copyright>� 2025.</copyright>
-<pubDate>Thu, 01 Nov 2018 16:50:27 EDT</pubDate>
-<ttl>10</ttl>
-<image>
-<title>Latest financial news - CNNMoney.com</title>
-<link>http://money.cnn.com/?section=money_latest</link>
-<url>
-http://i.cnn.net/money/images/cnnmoney_logo_144x30.gif
-</url>
-<width>144</width>
-<height>30</height>
-<description>
-fsafs sdfds fsdf fsdf sd
-</description>
-</image>
+  <title>TEST</title>
+  <description>Actualizaciones de mi servidor</description>
+  <language>en-us</language>
+  <copyright>&copy; 2025</copyright>
+  <pubDate>Sun, 02 Jun 2025 16:00:00 +0000</pubDate>
+  <ttl>10</ttl>
+  <link>http://localhost/rss/new.rss</link>
 
-<item>
-<title> Dos Dos Dos Dos Dos Dos Dos Dos Dos Dos </title>
-<link>
-http://money.cnn.com/2018/11/01/retirement/irs-contributions/index.html?section=money_latest
-</link>
-<guid>
-http://money.cnn.com/2018/11/01/retirement/irs-contributions/index.html
-</guid>
-<description>
-  Dos Dos Dos Dos Dos Dos Dos Dos Dos Dos Dos Dos Dos Dos
-</description>
-<pubDate>Thu, 01 Nov 2025 16:50:22 EDT</pubDate>
-</item>
+  <item>
+    <title>Evento 1 - Servidor activo</title>
+    <link>http://localhost/rss/evento1</link>
+    <guid>evento1-20250602-1600</guid>
+    <description>El servidor se activó correctamente.</description>
+    <pubDate>Sun, 02 Jun 2025 16:00:00 +0000</pubDate>
+  </item>
 
-<item>
-<title> Uno Uno Uno Uno Uno Uno Uno aUno Uno Uno Uno Uno Uno Uno </title>
-<link>
-http://money.cnn.com/2018/11/01/retirement/irs-contributions/index.html?section=money_latest
-</link>
-<guid>
-http://money.cnn.com/2018/11/01/retirement/irs-contributions/index.html
-</guid>
-<description>
- uno unounounounounounounounounoaunounounounounouno
-</description>
-<pubDate>Thu, 01 Nov 2024 16:50:22 EDT</pubDate>
-</item>
+  <item>
+    <title>Evento 2 - CPU al 90%</title>
+    <link>http://localhost/rss/evento2</link>
+    <guid>evento2-20250602-1601</guid>
+    <description>Advertencia: uso de CPU elevado.</description>
+    <pubDate>Sun, 02 Jun 2025 16:01:00 +0000</pubDate>
+  </item>
 </channel>
 </rss>
